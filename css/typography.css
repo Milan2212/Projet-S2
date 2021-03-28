@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+h1,p,h4,h3,input,h2:first-of-type {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+input {
+    color: black;
+}
+h2,.epingles {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: white;
+}
+
