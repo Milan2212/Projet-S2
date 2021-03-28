@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3329f368-12b0-4913-a275-71fd9c881f9d" name="Default Changelist" comment="" />
+    <list default="true" id="3329f368-12b0-4913-a275-71fd9c881f9d" name="Default Changelist" comment="HTML + CSS Premiere partie + footer">
+      <change afterPath="$PROJECT_DIR$/img/France.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/layout.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/typography.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/typography.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,14 +24,20 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1qKXJJ2qlv1fXIJdLfNimlrcp8T" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -41,12 +53,24 @@
       <updated>1616829181755</updated>
       <workItem from="1616829182878" duration="609000" />
       <workItem from="1616830530914" duration="11189000" />
-      <workItem from="1616937481350" duration="5605000" />
+      <workItem from="1616937481350" duration="10988000" />
     </task>
+    <task id="LOCAL-00001" summary="HTML + CSS Premiere partie + footer">
+      <created>1616943688748</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1616943688748</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="HTML + CSS Premiere partie + footer" />
+    <option name="LAST_COMMIT_MESSAGE" value="HTML + CSS Premiere partie + footer" />
   </component>
   <component name="WindowStateProjectService">
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1616831244800">
@@ -57,5 +81,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="604" y="336" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1616831349227" />
+    <state x="1016" y="435" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1616948414112">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1016" y="435" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1920.1040/-1920.3.1920.1040@0.0.1920.1040" timestamp="1616948414112" />
   </component>
 </project>
