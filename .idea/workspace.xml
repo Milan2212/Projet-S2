@@ -10,56 +10,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3329f368-12b0-4913-a275-71fd9c881f9d" name="Default Changelist" comment="Carte et informations textuelles">
-      <change afterPath="$PROJECT_DIR$/css/library/aos-master/.babelrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/library/aos-master/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/library/aos-master/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/library/aos-master/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/library/aos-master/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/library/aos-master/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/library/aos-master/CONTRIBUTING.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/library/aos-master/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/library/aos-master/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/library/aos-master/bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/library/aos-master/demo/async.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/library/aos-master/demo/css/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/library/aos-master/demo/simple.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/library/aos-master/dist/aos.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/library/aos-master/dist/aos.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/library/aos-master/karma.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/library/aos-master/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/library/aos-master/postcss.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/library/aos-master/src/js/aos.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/library/aos-master/src/js/helpers/calculateOffset.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/library/aos-master/src/js/helpers/detector.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/library/aos-master/src/js/helpers/elements.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/library/aos-master/src/js/helpers/handleScroll.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/library/aos-master/src/js/helpers/prepare.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/library/aos-master/src/js/libs/observer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/library/aos-master/src/js/libs/offset.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/library/aos-master/src/sass/_animations.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/library/aos-master/src/sass/_core.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/library/aos-master/src/sass/_easing.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/library/aos-master/src/sass/aos.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/library/aos-master/test/aos.spec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/library/aos-master/test/calculateOffset.spec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/library/aos-master/test/elements.spec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/library/aos-master/test/fixtures/aos-offset.fixture.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/library/aos-master/test/fixtures/aos.fixture.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/library/aos-master/test/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/library/aos-master/webpack.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/library/aos-master/yarn.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/croix.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/epingle.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/ex1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/ex2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/ex3.jpg" afterDir="false" />
+    <list default="true" id="3329f368-12b0-4913-a275-71fd9c881f9d" name="Default Changelist" comment="Mentions légales et animations">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/layout.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/typography.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/typography.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/France.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/France.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/logo_blanc.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/logo_blanc.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mentions_legales.html" beforeDir="false" afterPath="$PROJECT_DIR$/mentions_legales.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +72,7 @@
       <workItem from="1617085013168" duration="5836000" />
       <workItem from="1617091060662" duration="697000" />
       <workItem from="1617105017858" duration="2464000" />
-      <workItem from="1617121750081" duration="5072000" />
+      <workItem from="1617121750081" duration="8119000" />
     </task>
     <task id="LOCAL-00001" summary="HTML + CSS Premiere partie + footer">
       <created>1616943688748</created>
@@ -132,7 +88,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616953939335</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Mentions légales et animations">
+      <created>1617127180061</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1617127180061</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,7 +117,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="HTML + CSS Premiere partie + footer" />
     <MESSAGE value="Carte et informations textuelles" />
-    <option name="LAST_COMMIT_MESSAGE" value="Carte et informations textuelles" />
+    <MESSAGE value="Mentions légales et animations" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mentions légales et animations" />
   </component>
   <component name="WindowStateProjectService">
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1616831244800">

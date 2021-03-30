@@ -63,6 +63,22 @@ span {
     margin-right: auto;
     margin-top: 100px;
 }
+.bouton:hover {
+    background-image: linear-gradient(to bottom right, #6872E2, #40478A);
+    border: #7883FF 3px solid;
+    height: 62px;
+    width: 299px;
+    border-radius: 53px;
+    text-align: center;
+    line-height: 62px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    vertical-align: middle;
+}
+.bouton:hover a h3 {
+    margin-top: 0;
+}
 .bouton:first-of-type {
     margin-left: 115px;
     margin-top: -10px;
