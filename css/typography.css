@@ -1,19 +1,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
-h1,p,h4,h3,input,h2:first-of-type {
+h1,p,h4,h3,input,h2,.epingles {
     font-family: 'Montserrat', sans-serif;
     color: white;
 }
 input {
     color: black;
+    font-size: 18px;
+    padding-left: 3px$;
 }
-h2,.epingles {
+/*.epingles {
     font-family: 'Open Sans Condensed', sans-serif;
     color: white;
-}
+}*/
 
 p {
     font-size: 22px;
 }
 h2 {
     font-size: 40px;
+}
+a,h4 {
+    color: #7883FF;
+    text-decoration: none;
+}
+a:hover,h4:hover, #inscription a {
+    color: #B1B7FF;
+}
+
+.popuptext1 .auteur p,.popuptext1 .oeuvre p,.popuptext2 .auteur p,.popuptext2 .oeuvre p,.popuptext3 .auteur p,.popuptext3 .oeuvre p{
+    font-size: 13px;
+}
+
+footer #informations p {
+    font-size: 18px;
+}
+.mentions h3 {
+    font-size: 21px;
+}
+.mentions p {
+    font-size: 18px;
+}
+.mentions h2 {
+    font-size: 28px;
 }

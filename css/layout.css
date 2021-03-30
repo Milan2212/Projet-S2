@@ -18,10 +18,10 @@ body {
     z-index: -1;
     top: 1300px;
     left: -300px;
-    width: 2420px;
-    height: 2750px;
+    width: 2600px;
+    height: 2940px;
 }
-header > img {
+header  img {
     height: 120px;
     margin-left: 115px;
     margin-top: 55px;
@@ -65,16 +65,19 @@ span {
 }
 .bouton:first-of-type {
     margin-left: 115px;
-    margin-top: 200px;
-    margin-bottom: 120px;
+    margin-top: -10px;
+    margin-bottom: 400px;
 }
-.bouton > h3 {
+.bouton h3 {
     font-size: 35px;
+}
+.bouton a {
+    text-decoration: none;
 }
 .pres1 {
     width: 850px;
     margin-left: 230px;
-    margin-top: 400px;
+    margin-top: 300px;
 }
 .pres1 h2, .pres2 h2 {
     margin-left: 30px;
@@ -88,7 +91,284 @@ span {
     margin-left: auto;
     margin-right: 230px;
 }
+.popup1,.popup2,.popup3 {
+    position: relative;
+    cursor: pointer;
+    height: 100px;
+    width: 55px;
+}
+.popup1 {
+    left: 1250px;
+    top: 160px;
+}
+.popup1:hover {
+    left: 1245px;
+    top: 140px;
+}
+.popup2 {
+    left: 900px;
+    bottom: 50px;
+}
+.popup2:hover {
+    left: 895px;
+    bottom: 68px;
+}
+.popup3 {
+    left: 500px;
+    top: 40px;
+}
+.popup3:hover {
+    left: 495px;
+    top: 21px;
+}
+.popup1 .popuptext1,.popup2 .popuptext2,.popup3 .popuptext3 {
+    position: absolute;
+    visibility: hidden;
+    width: 1000px;
+    background-color: #555;
+    color: #fff;
+    border-radius: 6px;
+    height: 1px;
+    z-index: 2;
+    padding: 45px;
+}
 
+
+.popup1 .show1,.popup2 .show2,.popup3 .show3 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+    width: 1250px;
+    height: 600px;
+}
+
+.fr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -100px;
+    margin-bottom: 800px;
+    margin-top: 200px;
+}
+.popups {
+    margin-top: -750px;
+    margin-left: -200px;
+}
+.epingles {
+    position: relative;
+    top: -200px;
+    margin-left: 150px;
+    text-align: center;
+    font-size: 30px;
+}
+.e1:hover,.e2:hover,.e3:hover {
+    width: 64.2px;
+    height: 125.28px;
+    margin-bottom: 20px;
+}
+
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
+.popuptext1 h2{
+    text-align: center;
+    margin-top: -5px;
+}
+.popuptext1 span {
+    background-color: transparent;
+    font-style: italic;
+}
+.popuptext1 img:first-of-type {
+    max-width: 320px;
+    height: auto;
+    border: white solid 2px;
+    margin-left: 100px;
+
+}
+.popuptext1 img:last-of-type {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left: 810px;
+    bottom: 448px;
+}
+.popuptext1 ul {
+    position: relative;
+    list-style: none;
+    font-family: Montserrat, sans-serif;
+    left: 500px;
+    bottom: 370px;
+    line-height: 40px;
+}
+.popuptext1 .auteur {
+    width: 380px;
+    position: relative;
+    bottom: 260px;
+    left: 100px;
+}
+.popuptext1 .oeuvre {
+    position: relative;
+    left: 540px;
+    bottom: 440px;
+    width: 650px;
+}
+.popuptext2 h2{
+    text-align: center;
+    margin-top: -5px;
+}
+.popuptext2 span {
+    background-color: transparent;
+    font-style: italic;
+}
+.popuptext2 img:first-of-type {
+    max-width: 310px;
+    height: auto;
+    border: white solid 2px;
+    margin-left: 100px;
+
+}
+.popuptext2 img:last-of-type {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    bottom: 457px;
+    left: 820px;
+}
+.popuptext2 ul {
+    position: relative;
+    list-style: none;
+    font-family: Montserrat, sans-serif;
+    left: 500px;
+    bottom: 400px;
+    line-height: 40px;
+}
+.popuptext2 .auteur {
+    width: 380px;
+    position: relative;
+    bottom: 250px;
+    left: 100px;
+}
+.popuptext2 .oeuvre {
+    position: relative;
+    left: 540px;
+    bottom: 514px;
+    width: 650px;
+}
+.popuptext3 h2{
+    text-align: center;
+    margin-top: 10px;
+}
+.popuptext3 span {
+    background-color: transparent;
+    font-style: italic;
+}
+.popuptext3 img:first-of-type {
+    max-width: 450px;
+    height: auto;
+    border: white solid 2px;
+    margin-left: 75px;
+    margin-top: 35px;
+
+}
+.popuptext3 img:last-of-type {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    bottom: 368px;
+    left: 700px;
+}
+.popuptext3 ul {
+    position: relative;
+    list-style: none;
+    font-family: Montserrat, sans-serif;
+    left: 560px;
+    bottom: 208px;
+    line-height: 40px;
+}
+.popuptext3 .auteur {
+    width: 380px;
+    position: relative;
+    bottom: 160px;
+    left: 75px;
+}
+.popuptext3 .oeuvre {
+    position: relative;
+    left: 600px;
+    bottom: 305px;
+    width: 650px;
+}
+.who {
+    margin-top: -150px;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-bottom: 70px;
+}
+#presentation {
+    display: flex;
+}
+.maelle, .jonas, .zoe {
+    width: 33.3%;
+    padding-left: 45px;
+    padding-right: 45px;
+    text-align: center;
+}
+#presentation p {
+    font-size: 18px;
+}
+.when {
+    margin-top: 120px;
+    text-align: center;
+    width: 680px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#inscription {
+    width: 800px;
+    background-color: #7883FF;
+    margin: 100px auto 70px;
+    text-align: center;
+}
+#inscription h2 {
+    padding-top: 15px;
+}
+#inscription p {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#inscription p:nth-child(3) {
+    margin-top: -15px;
+}
+#inscription p:last-of-type {
+    padding-bottom: 15px;
+}
+#inscription input {
+    width: 500px;
+    height: 30px;
+}
+#inscription a {
+    font-family: 'Montserrat','sans-serif';
+    color: white;
+    font-size: 22px;
+    margin-left: 8px;
+    padding-top: 3px;
+    padding-bottom: 4px;
+}
+#inscription a:hover {
+    color: #40478A;
+}
 footer {
     border-top: black solid 2px;
     height: 215px;
@@ -110,17 +390,29 @@ footer a {
     align-items: center;
 }
 
-#informations img {
-    margin-top: 10px;
-}
 #reseaux img {
     margin-left: 7px;
     margin-right: 7px;
 }
-.fr {
-    display: flex;
-    position: relative;
-    align-items: center;
-    justify-content: center;
-    margin-top: 200px;
+
+.mentions {
+    padding: 45px;
+}
+.mentions .continents {
+    top: 200px;
+    left: 400px;
+    width: 1430px;
+    height: 1617px;
+}
+.mentions>header>a>img {
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 100px;
+}
+.mentions footer {
+    margin: -45px;
+    margin-top: 60px;
+}
+.mentions p {
+    line-height: 25px;
 }

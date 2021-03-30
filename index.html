@@ -5,8 +5,9 @@
     <title>ArtSpotting</title>
     <link rel="stylesheet" href="css/typography.css">
     <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
-
+<body>
 <header>
     <img src="img/logo_blanc.svg" alt="Logo d'ArtSpotting">
 </header>
@@ -426,9 +427,9 @@
 <h1>Avec <span>ArtSpotting</span></h1>
 <h2 class="titre">découvrez l'art d'un œil nouveau !</h2>
 <div class="bouton">
-    <h3>Inscription</h3>
+    <a href="#inscription"><h3>Inscription</h3></a>
 </div>
-<div class="pres1">
+<div data-aos="fade-up" data-aos-delay="150" class="pres1">
     <h2>C'EST QUOI ARTSPOTTING ?</h2>
     <p>ArtSpotting vous permet à vous, petits et grands fans d’art, de découvrir et redécouvrir des œuvres en naviguant
         sur
@@ -440,7 +441,7 @@
         l’ajout de
         nouvelles œuvres.</p>
 </div>
-<div class="pres2">
+<div data-aos="fade-up" data-aos-delay="150" class="pres2">
     <h2>COMMENT ÇA MARCHE ?</h2>
     <p>ArtSpotting est très simple d’utilisation. C'est une carte interactive sur laquelle il vous suffit de cliquer sur
         une
@@ -456,20 +457,156 @@
     <p>Les œuvres que vous likez seront disponibles sur votre profil, si l'envie vous vient d'en redécouvrir
         certaines.</p>
 </div>
->
-<div class="bouton">
-    <h3>Inscription</h3>
+<div data-aos="fade-up" data-aos-delay="200"  class="bouton">
+    <a href="#inscription"><h3>Inscription</h3></a>
 </div>
-<p class="epingles">Cliquez sur les épingles !</p>
-<div class="fr">
-    <img src="img/France.svg" alt="Carte de la France">
+<div data-aos="fade-up" data-aos-delay="300" class="fr">
+    <div>
+        <img src="img/France.svg" alt="Carte de la France">
+        <p class="epingles">Cliquez sur les épingles !</p>
+        <div class="popups">
+            <div class="popup1" onclick="epingle1()">
+                <img src="img/epingle.svg" alt="epingle" class="e1">
+                <div class="popuptext1" id="myPopup1">
+                    <h2><span>Le Triomphe De L'hiver</span>, Antoine Caron</h2>
+                    <img src="img/ex1.jpg" alt="Tableau">
+                    <img src="img/croix.svg" alt="Fermeture de la fenêtre">
+                    <ul>
+                        <li>Année de Création : 1568</li>
+                        <li>Taille : 103 x 179 cm</li>
+                        <li>Type : Tableau</li>
+                        <li>Technique : Huile sur toile</li>
+                        <li>Mouvement : Maniérisme</li>
+                        <li>Lieu d'exposition : Nancy</li>
+                    </ul>
+                    <div class="auteur">
+                        <h3>L'auteur</h3>
+                        <p>Antoine Caron est un maître verrier, illustrateur et peintre Français maniériste, né en 1521
+                            à Beauvais et
+                            est mort en 1599 à Paris. Antoine Caron est l’un des rares peintres français de son époque à
+                            posséder une
+                            personnalité artistique prononcée. Son œuvre reflète l’ambiance raffinée.</p>
+                    </div>
+                    <div class="oeuvre">
+                        <h3>L'oeuvre</h3>
+                        <p>Le Triomphe De L’hiver semble représenter un peuple fêtant l’arrivée de l’hiver. Ils font de
+                            la musique et
+                            ont l'air d'être joyeux.
+
+                            Les arbres au fond et le sol sont enneigés, les personnages cependant, semblent être peu
+                            vêtus malgré le
+                            temps qu’il fait. Les couleurs sont assez monotones et sombres, mais les vêtements des
+                            personnes au milieu
+                            de la peinture sont très colorés, ce qui crée un gros contraste.
+
+                            La peinture représente une architecture paysagère, et des personnes qui semblent provenir de
+                            la mythologie
+                            gréco-romaine. L’artiste a voulu représenter l’arrivée d’une nouvelle saison.</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="popup2" onclick="epingle2()">
+                <img src="img/epingle.svg" alt="epingle" class="e2">
+                <div class="popuptext2" id="myPopup2">
+                    <h2><span>Les Acteurs De La Comédie Italienne</span>, Nicolas Lancret</h2>
+                    <img src="img/ex2.jpg" alt="Tableau">
+                    <img src="img/croix.svg" alt="Fermeture de la fenêtre">
+                    <ul>
+                        <li>Année de création : 1716 à 1736</li>
+                        <li>Taille : 260 x 220 cm</li>
+                        <li>Type : Tableau</li>
+                        <li>Technique : Huile sur panneau de bois</li>
+                        <li>Genre : scène de genre/peinture de genre.</li>
+                        <li>Lieu d’exposition : Musée du Louvre, Paris</li>
+                    </ul>
+                    <div class="auteur">
+                        <h3>L'auteur</h3>
+                        <p>Nicolas Lancret est un peintre de nationalité française. Il est né le 22 janvier 1690 à Paris
+                            et est mort le
+                            14 septembre 1743 dans la même ville. Il a su dépeindre l’esprit des goûts et des mœurs de
+                            la société
+                            Française de la Régence.</p>
+                    </div>
+                    <div class="oeuvre">
+                        <h3>L'oeuvre</h3>
+                        <p>Les Acteurs De La Comédie Italienne représente un groupe de personnes. Celles-ci semblent
+                            être déguisées,
+                            nous pouvons le remarquer grâces aux masques et aux vêtements. Nous pouvons retrouver les
+                            éléments typiques
+                            du théâtre Italien, comme les loups que deux personnes portent sur la peinture, et les
+                            vêtements que portent
+                            les personnages.
+                            Les tissus ornés de losanges multicolores ressemblent fortement aux tissus que portent
+                            Arlequin, un
+                            personnage type de la Commedia dell'arte qui est apparu au XVI e siècle en Italie, au masque
+                            noir. Au
+                            premier plan nous pouvons distinguer un homme, habillé tout en blanc avec une expression
+                            faciale assez
+                            triste, monotone, et son visage est très pâle.
+
+                            Nous pouvons le comparer à Pierrot, un autre personnage issu de la Commedia dell'arte, qui
+                            est toujours vêtu
+                            de blanc et au teint très enfariné. L’artiste s’est clairement inspiré de la Commedia
+                            dell’arte pour son
+                            œuvre, c’est une peinture de genre qui représente les personnages les plus connu du théâtre
+                            Italien.</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="popup3" onclick="epingle3()">
+                <img src="img/epingle.svg" alt="epingle" class="e3">
+                <div class="popuptext3" id="myPopup3">
+                    <h2><span>Cléopâtre Se Donnant La Mort</span>, Claude Vignon</h2>
+                    <img src="img/ex3.jpg" alt="Tableau">
+                    <img src="img/croix.svg" alt="Fermeture de la fenêtre">
+                    <ul>
+                        <li>Année de création : 1645</li>
+                        <li>Taille : 95 x 81,5 cm</li>
+                        <li>Type : Peinture d'histoire</li>
+                        <li>Technique : Huile sur toile</li>
+                        <li>Lieu d'exposition : Musée des beaux-arts, Rennes, France</li>
+                    </ul>
+                    <div class="auteur">
+                        <h3>L'auteur</h3>
+                        <p>Claude Vignon est un peintre, graveur et illustrateur français. Il est né à Tours le 19 mai
+                            1593 et est mort
+                            à Paris le 10 mai 1670, il aborde tous les genres.</p>
+                    </div>
+                    <div class="oeuvre">
+                        <h3>L'oeuvre</h3>
+                        <p>Cette peinture représente un personnage historique connu, du nom de Cléopâtre, la fameuse
+                            reine d'Égypte
+                            antique. Elle est vêtue d'une couronne et de vêtements très fins.
+
+                            L'œuvre porte bien son nom, puisqu'elle représente la mort de Cléopâtre, se laissant mordre
+                            par l'animal
+                            redoutable, qu'est le serpent. Nous pouvons voir sur l'œuvre le venin mortel du serpent
+                            enroulé autour
+                            d'elle, et l'expression faciale de Cléopâtre, qui semble souffrir. Les couleurs sont
+                            moroses, lugubres, il y
+                            a des teints de jaune et de vert, qui nous rappellent le thème de la mort.
+
+                            Ce qui est intéressant dans cette œuvre, c'est l'interprétation des égyptiens par un peintre
+                            européen qui
+                            est vraiment différente par rapport à la représentation de ces derniers par leur propre
+                            peuple.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
 </div>
-<h2>QUI SOMMES NOUS ?</h2>
-<section id="presentation">
+
+
+<h2 data-aos="fade-up" data-aos-delay="150" class="who">QUI SOMMES NOUS ?</h2>
+<section data-aos="fade-up" data-aos-delay="150" id="presentation">
     <div class="maelle">
         <img src="img/avatar_maelle.svg" alt="Avatar Maëlle">
         <h3>MAËLLE MARCHAL</h3>
-        <h4>tghmae@gmail.com</h4>
+        <a href="mailto:tghmae@gmail.com"><h4>tghmae@gmail.com</h4></a>
         <p>Je suis passionnée par tous types d’art, et tout ce qui touche à Internet.
             Je dessine et je passe la plupart de mon temps sur Internet, à trouver de l’inspiration et à partager mes
             œuvres.
@@ -478,31 +615,50 @@
     <div class="jonas">
         <img src="img/avatar_jonas.svg" alt="Avatar Jonas">
         <h3>JONAS MORISOT</h3>
-        <h4>milanmorisot@gmail.com</h4>
+        <a href="mailto:milanmorisot@gmail.com"><h4>milanmorisot@gmail.com</h4></a>
         <p>Mon nom est Morisot, Jonas Morisot.
             Passionné de jeux en ligne depuis mon plus jeune âge, c’est tout naturellement vers Internet que je me suis
             tourné lors du choix de mes études. Je peux passer des heures sur Internet afin de découvrir de nouvelles
-            choses, et c’est pourquoi le projet ArtSpotting m’a directement attiré.</p>
+            choses, c’est pourquoi le projet ArtSpotting m’a directement attiré.</p>
     </div>
     <div class="zoe">
         <img src="img/avatar_zoe.svg" alt="Avatar Zoé">
         <h3>ZOÉ LOUYOT</h3>
-        <h4>zoe.louyot@laposte.net</h4>
+        <a href="mailto:zoe.louyot@laposte.net"><h4>zoe.louyot@laposte.net</h4></a>
         <p>ArtSpotting est pour moi le projet idéal. J'aime me tenir informée sur le monde grâce à Internet, et tout ce
             qui est du domaine artistique, comme découvrir une autre époque ou une autre culture à travers des
             œuvres.</p>
     </div>
 </section>
-<h2>QUAND ?</h2>
-<p>La conception de ce site étant un projet d’études, il sera mis en ligne et à votre disponibilité, avec toutes ses
-    fonctionnalités fin mai 2021.</p>
-<section id="inscription">
+<div data-aos="fade-up" data-aos-delay="150" class="when">
+    <h2>QUAND ?</h2>
+    <p>La conception de ce site étant un projet d’études, il sera mis en ligne et à votre disponibilité, avec toutes ses
+        fonctionnalités fin mai 2021.</p>
+</div>
+<section data-aos="fade-up" data-aos-delay="300" id="inscription">
     <h2>INSCRIPTION</h2>
-    <p>Vous souhaitez être tenu au courant lors de la mise en ligne de ArtSpotting ?<br/>Inscrivez-vous à notre
-        newsletter !</p>
+    <p>Vous souhaitez être tenu au courant lors de la mise en ligne de ArtSpotting ?</p>
+    <p>Inscrivez-vous à notre newsletter !</p>
     <input type="email" id="mail" name="user_mail" value="E-mail"/>
+    <a href="">Envoyer</a>
     <p>À bientôt !</p>
 </section>
+<script>
+    function epingle1() {
+        var popup1 = document.getElementById("myPopup1");
+        popup1.classList.toggle("show1");
+    }
+
+    function epingle2() {
+        var popup2 = document.getElementById("myPopup2");
+        popup2.classList.toggle("show2");
+    }
+
+    function epingle3() {
+        var popup3 = document.getElementById("myPopup3");
+        popup3.classList.toggle("show3");
+    }
+</script>
 <footer>
     <section id="reseaux">
         <a href="https://twitter.com/"><img src="img/logo_tw.svg" alt="Logo Twitter"></a>
@@ -520,6 +676,9 @@
         <h4><a href="mentions_legales.html">Mentions Légales</a></h4>
     </section>
 </footer>
-
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 </body>
 </html>
